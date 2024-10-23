@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/style.css') }}">
+    <link id="favicon" rel="icon" type="image/x-icon" href="{{ url_for('static', path='favicon.ico') }}">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Deluxe API</title>
+</head>
+<body>
+    <header>
+        <a href="" class="link">سورس کد <i class='bx bx-code-alt'></i></a>
+        <a href="" class="link">تماس با ما <i class='bx bxs-user'></i></a>
+        <a href="" class="link">تلگرام <i class='bx bxl-telegram'></i></a>
+
+        <a href="" class="title">دلاکس</a>
+
+        <a href="" class="mtn">بهترین را از ما بخواهید</a>
+    </header>
+    <div class="nav"><h1>↓ مجموعه وب سرویس های دلاکس تیم ↓</h1></div>
+    <div class="container">
+      <div class="warper">
+        
+        <div class="card">
+              <img class="top-section" src="{{ url_for('static', path='/images/joke.jpg') }}" alt="Joke" />
+            <div class="bottom-section">
+              <span class="card-title">جوک -📍</span>
+              <div class="row row1">
+                <div class="item">
+                  <span>: api لینک</span>
+                  <br>
+                  <input type="text" class="api" value="/joke" disabled>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="card">
+          <img class="top-section" src="{{ url_for('static', path='/images/hafez.jpeg') }}" alt="Fall Hafez" />
+          <div class="bottom-section">
+            <span class="card-title">فال -📍</span>
+            <div class="row row1">
+              <div class="item">
+                <span>: api لینک</span>
+                <br>
+                <input type="text" class="api" value="/fall" disabled>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <div class="card">
+        <img class="top-section" src="{{ url_for('static', path='/images/wallpaper.jpg') }}" alt="Wallpaper" />
+          <div class="bottom-section">
+            <span class="card-title">والپیپیر -📍</span>
+            <div class="row row1">
+              <div class="item">
+                <span>: api لینک</span>
+                <br>
+                <input type="text" class="api" value="/wallpaper" disabled>
+              </div>
+            </div>
+          </div>
+      </div>
+
+    </div>
+
+    <div class="warper">
+        
+      <div class="card">
+        <img class="top-section" src="{{ url_for('static', path='/images/password.png') }}" alt="Password Genrator" />
+          <div class="bottom-section">
+            <span class="card-title">پسوورد ساز -📍</span>
+            <div class="row row1">
+              <div class="item">
+                <span>: api لینک</span>
+                <br>
+                <input type="text" class="api" value="/password" disabled>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="card">
+        <img class="top-section" src="{{ url_for('static', path='/images/reverse-text.jpg') }}" alt="Reverse Text" />
+        <div class="bottom-section">
+          <span class="card-title">برعکس کننده متن -📍</span>
+          <div class="row row1">
+            <div class="item">
+              <span>: api لینک</span>
+              <br>
+              <input type="text" class="api" value="/textRev/{text}" disabled>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="card">
+      <img class="top-section" src="{{ url_for('static', path='/images/arz.jpg') }}" alt="Arz" />
+        <div class="bottom-section">
+          <span class="card-title">قیمت ارز دیجتال -📍</span>
+          <div class="row row1">
+            <div class="item">
+              <span>: api لینک</span>
+              <br>
+              <input type="text" class="api" value="/arz" disabled>
+            </div>
+          </div>
+        </div>
+    </div>
+
+  </div>
+  <div class="warper">
+        
+    <div class="card">
+          <img class="top-section" src="{{ url_for('static', path='/images/short-url.jpg') }}" alt="Url-Shorter" />
+        <div class="bottom-section">
+          <span class="card-title">کوتاه کننده لینک -📍</span>
+          <div class="row row1">
+            <div class="item">
+              <span>: api لینک</span>
+              <br>
+              <input type="text" class="api" value="/shortURL/{link}" disabled>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="card">
+      <img class="top-section" src="{{ url_for('static', path='/images/chatgpt.jpeg') }}" alt="ChatGPT" />
+      <div class="bottom-section">
+        <span class="card-title">چت جی پی تی -📍</span>
+        <div class="row row1">
+          <div class="item">
+            <span>: api لینک</span>
+            <br>
+            <input type="text" class="api" value="/ChatGPT/{text}" disabled>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="card">
+    <img class="top-section" src="{{ url_for('static', path='/images/datetime.jpg') }}" alt="DateTime" />
+      <div class="bottom-section">
+        <span class="card-title">تاریخ و ساعت -📍</span>
+        <div class="row row1">
+          <div class="item">
+            <span>: api لینک</span>
+            <br>
+            <input type="text" class="api" value="/datetime" disabled>
+          </div>
+        </div>
+      </div>
+  </div>
+
+</div>
+
+<div class="warper">
+    
+  <div class="card">
+    <img class="top-section" src="{{ url_for('static', path='/images/captcha.png') }}" alt="Captcha" />
+      <div class="bottom-section">
+        <span class="card-title">کپچا ساز -📍</span>
+        <div class="row row1">
+          <div class="item">
+            <span>: api لینک</span>
+            <br>
+            <input type="text" class="api" value="/captcha" disabled>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="card">
+    <img class="top-section" src="{{ url_for('static', path='/images/qrcode.jpg') }}" alt="QR Code" />
+    <div class="bottom-section">
+      <span class="card-title">کیو آر کد ساز -📍</span>
+      <div class="row row1">
+        <div class="item">
+          <span>: api لینک</span>
+          <br>
+          <input type="text" class="api" value="/qrcode/{link}" disabled>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="card">
+  <img class="top-section" src="{{ url_for('static', path='/images/text2voice.png') }}" alt="Text to Voice" />
+    <div class="bottom-section">
+      <span class="card-title">تبدیل متن به صدا -📍</span>
+      <div class="row row1">
+        <div class="item">
+          <span>: api لینک</span>
+          <br>
+          <input type="text" class="api" value="/text2voice/{text}" disabled>
+        </div>
+      </div>
+    </div>
+</div>
+
+</div>
+
+<div class="warper">
+        
+  <div class="card">
+        <img class="top-section" src="{{ url_for('static', path='/images/translate.png') }}" alt="Translator" />
+      <div class="bottom-section">
+        <span class="card-title">مترجم(فارسی) -📍</span>
+        <div class="row row1">
+          <div class="item">
+            <span>: api لینک</span>
+            <br>
+            <input type="text" class="api" value="/translate/{text}" disabled>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="card">
+    <img class="top-section" src="{{ url_for('static', path='/images/bmi.jpg') }}" alt="BMI" />
+    <div class="bottom-section">
+      <span class="card-title">BMI محاسبه -📍</span>
+      <div class="row row1">
+        <div class="item">
+          <span>: api لینک</span>
+          <br>
+          <input type="text" class="api" value="/bmi?weight=60&height=1.80" disabled>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="card">
+  <img class="top-section" src="{{ url_for('static', path='/images/pinterest.png') }}" alt="Pinterest Downloader" />
+    <div class="bottom-section">
+      <span class="card-title">پینترست دانلودر -📍</span>
+      <div class="row row1">
+        <div class="item">
+          <span>: api لینک</span>
+          <br>
+          <input type="text" class="api" value="/pinterest?url={pinterestLink}" disabled>
+        </div>
+      </div>
+    </div>
+</div>
+
+</div>
+
+<div class="warper">
+  
+<div class="card">
+  <img class="top-section" src="{{ url_for('static', path='/images/removebg.jpg') }}" alt="Remove Background" />
+    <div class="bottom-section">
+      <span class="card-title">حذف پس زمینه -📍</span>
+      <div class="row row1">
+        <div class="item">
+          <span>: api لینک</span>
+          <br>
+          <input type="text" class="api" value="/removeBG?image={url}" disabled>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="card">
+  <img class="top-section" src="{{ url_for('static', path='/images/whois.jpg') }}" alt="Whois" />
+  <div class="bottom-section">
+    <span class="card-title">اطلاعات دامنه -📍</span>
+    <div class="row row1">
+      <div class="item">
+        <span>: api لینک</span>
+        <br>
+        <input type="text" class="api" value="/whois?url={domain}" disabled>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+<img class="top-section" src="{{ url_for('static', path='/images/screenshot.jpg') }}" alt="Screenshot Website" />
+  <div class="bottom-section">
+    <span class="card-title">اسکرین شات از وبسایت -📍</span>
+    <div class="row row1">
+      <div class="item">
+        <span>: api لینک</span>
+        <br>
+        <input type="text" class="api" value="/screenshot?url={url}" disabled>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </div>
+</body>
+
+<script>
+  var host = window.location.hostname;
+  var apis = document.querySelectorAll('.api');
+
+  apis.forEach(function(input) {
+    input.value = host + input.value;
+  });
+
+</script>
+
+</html>
